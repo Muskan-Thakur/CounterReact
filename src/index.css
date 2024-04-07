@@ -1,0 +1,73 @@
+/* Primary.css */
+.container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  height: 350px;
+ padding: 20px;
+ margin-top: 10%; 
+ margin-left: 30%;
+ background-color: #f8f7ff;
+
+}
+
+.counter-display {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.increment-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.decrement-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+.login-section {
+  margin-top: 30px;
+}
+
+.login-button {
+  background-color: #ff9800;
+  color: white;
+}
+
+.hidden-message {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.hidden-message.show {
+  visibility: visible;
+  opacity: 1;
+}
