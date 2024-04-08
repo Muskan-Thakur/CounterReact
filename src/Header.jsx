@@ -5,10 +5,12 @@ function Header()
     const styles=
     {
         textAlign:"center",
-        marginTop: "15px"
+        fontSize:"2em",
+        fontWeight:"bold",
+        color: "white"
         
        
     }
-return(<h1 style={styles} >MY COUNTER</h1>)
+return(<p style={styles} >COUNTER</p>)
 }
 export default Header;
